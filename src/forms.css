@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: poppins;
+}
+.parent {
+  height: 100vh;
+  background-color: #f9fafb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.detail{
+  font-size: 22px;
+}
+h1,
+p {
+  text-align: center;
+  margin-bottom: 10px;
+}
+h1 {
+  font-weight: 500;
+  font-size: 30px;
+}
+p {
+  font-weight: 400;
+}
+.form2-para {
+  font-weight: 400;
+  font-size: 14px;
+  color: #7a7488;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  min-width: 370px;
+  max-width: 500px;
+}
+form {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-direction: column;
+}
+input {
+  padding: 15px 10px;
+  border: 1px solid rgba(84, 84, 84, 0.159);
+  outline: none;
+  border-radius: 6px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.btns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin-top: 20px; */
+}
+.next-btn,
+.prev-btn {
+  width: 150px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+  color: white;
+  cursor: pointer;
+  /* padding: 10px; */
+  border-radius: 6px;
+}
+.prev-btn {
+  background-color: gray;
+}
+.prev-btn:hover {
+  background-color: black;
+}
+.next1 {
+  align-self: flex-end;
+}
+.mail-phone {
+  display: flex;
+  gap: 10px;
+}
+.mail-phone input{
+  width: 100%;
+}
+.textarea{
+  height: 150px;
+}
+.tax{
+  text-align: left;
+}
+.shape{
+  width: 100px;
+  height: 100px;
+  background-color: #e5e7eb;
+  align-self: center;
+}
+.progress-bar-container {
+  height: 10px;
+  width: 100%;
+  background-color: #e0e0e0;
+  position: absolute;
+}
+
+.progress-bar-fill {
+  height: 100%;
+  background-color: #4caf50;
+  transition: 0.3s ease-in all;
+}
+
